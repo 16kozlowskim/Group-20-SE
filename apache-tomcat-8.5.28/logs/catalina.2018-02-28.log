@@ -1,0 +1,512 @@
+28-Feb-2018 00:03:58.119 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web-client]
+28-Feb-2018 00:03:58.138 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 00:03:58.300 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [162] ms
+28-Feb-2018 01:59:21.409 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web-client]
+28-Feb-2018 01:59:21.624 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 01:59:22.112 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [487] ms
+28-Feb-2018 02:03:02.230 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web-client]
+28-Feb-2018 02:03:02.240 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 02:03:02.544 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [304] ms
+28-Feb-2018 02:07:55.197 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web-client]
+28-Feb-2018 02:08:05.235 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 02:08:05.638 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [403] ms
+28-Feb-2018 02:24:41.085 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Feb-2018 02:24:41.135 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 02:24:41.243 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 02:24:41.323 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Feb-2018 02:24:41.603 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 02:24:41.618 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 02:24:41.626 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 02:24:41.632 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 02:30:36.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+28-Feb-2018 02:30:36.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+28-Feb-2018 02:30:36.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+28-Feb-2018 02:30:36.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Feb-2018 02:30:36.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Feb-2018 02:30:36.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Feb-2018 02:30:36.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+28-Feb-2018 02:30:36.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Feb-2018 02:30:36.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2018 02:30:36.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 02:30:36.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 02:30:36.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\conf\logging.properties
+28-Feb-2018 02:30:36.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2018 02:30:36.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2018 02:30:36.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2018 02:30:36.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2018 02:30:36.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 02:30:36.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 02:30:36.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\temp
+28-Feb-2018 02:30:36.028 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\adb;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Tav002\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+28-Feb-2018 02:30:36.111 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 02:30:36.212 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 02:30:36.218 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 02:30:36.219 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 02:30:36.220 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 419 ms
+28-Feb-2018 02:30:36.236 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2018 02:30:36.236 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+28-Feb-2018 02:30:36.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\sample.war]
+28-Feb-2018 02:30:36.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\sample.war] has finished in [205] ms
+28-Feb-2018 02:30:36.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 02:30:36.576 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 02:30:36.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [131] ms
+28-Feb-2018 02:30:36.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\docs]
+28-Feb-2018 02:30:36.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\docs] has finished in [19] ms
+28-Feb-2018 02:30:36.611 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\examples]
+28-Feb-2018 02:30:36.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\examples] has finished in [304] ms
+28-Feb-2018 02:30:36.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\host-manager]
+28-Feb-2018 02:30:36.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\host-manager] has finished in [24] ms
+28-Feb-2018 02:30:36.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\manager]
+28-Feb-2018 02:30:36.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\manager] has finished in [29] ms
+28-Feb-2018 02:30:36.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\ROOT]
+28-Feb-2018 02:30:36.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\ROOT] has finished in [17] ms
+28-Feb-2018 02:30:36.989 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 02:30:36.998 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 02:30:36.999 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 779 ms
+28-Feb-2018 02:31:16.999 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web-client]
+28-Feb-2018 02:31:17.023 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 02:31:17.281 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 02:31:17.285 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [262] ms
+28-Feb-2018 03:37:46.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+28-Feb-2018 03:37:46.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+28-Feb-2018 03:37:46.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+28-Feb-2018 03:37:46.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Feb-2018 03:37:46.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Feb-2018 03:37:46.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Feb-2018 03:37:46.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+28-Feb-2018 03:37:46.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Feb-2018 03:37:46.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\conf\logging.properties
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2018 03:37:46.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:37:46.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:37:46.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\temp
+28-Feb-2018 03:37:46.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+28-Feb-2018 03:37:46.049 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Feb-2018 03:37:46.050 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Feb-2018 03:37:46.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+28-Feb-2018 03:37:46.607 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:37:46.710 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 03:37:46.717 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:37:46.719 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 03:37:46.720 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 958 ms
+28-Feb-2018 03:37:46.742 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2018 03:37:46.743 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+28-Feb-2018 03:37:46.761 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\sample.war]
+28-Feb-2018 03:37:46.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\sample.war] has finished in [229] ms
+28-Feb-2018 03:37:46.991 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war]
+28-Feb-2018 03:37:47.131 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 03:37:47.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\web-client.war] has finished in [142] ms
+28-Feb-2018 03:37:47.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\docs]
+28-Feb-2018 03:37:47.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\docs] has finished in [16] ms
+28-Feb-2018 03:37:47.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\examples]
+28-Feb-2018 03:37:47.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\examples] has finished in [302] ms
+28-Feb-2018 03:37:47.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\host-manager]
+28-Feb-2018 03:37:47.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\host-manager] has finished in [23] ms
+28-Feb-2018 03:37:47.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\manager]
+28-Feb-2018 03:37:47.497 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\manager] has finished in [22] ms
+28-Feb-2018 03:37:47.498 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\ROOT]
+28-Feb-2018 03:37:47.519 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Tav002\Downloads\apache-tomcat-8.5.28\webapps\ROOT] has finished in [21] ms
+28-Feb-2018 03:37:47.521 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:37:47.527 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:37:47.531 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 811 ms
+28-Feb-2018 03:47:38.261 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web-client]
+28-Feb-2018 03:48:40.791 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Feb-2018 03:48:40.792 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:48:40.885 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:48:40.966 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Feb-2018 03:48:40.981 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:48:40.987 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:48:40.989 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:48:40.990 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\conf\logging.properties
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 03:53:11.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\temp
+28-Feb-2018 03:53:11.424 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+28-Feb-2018 03:53:11.424 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Feb-2018 03:53:11.424 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Feb-2018 03:53:12.125 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+28-Feb-2018 03:53:12.356 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:53:13.262 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 03:53:13.289 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:53:13.292 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 03:53:13.293 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2677 ms
+28-Feb-2018 03:53:13.345 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2018 03:53:13.345 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+28-Feb-2018 03:53:13.387 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\sample.war]
+28-Feb-2018 03:53:13.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\sample.war] has finished in [472] ms
+28-Feb-2018 03:53:13.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 03:53:14.360 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 03:53:14.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [498] ms
+28-Feb-2018 03:53:14.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs]
+28-Feb-2018 03:53:14.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs] has finished in [31] ms
+28-Feb-2018 03:53:14.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples]
+28-Feb-2018 03:53:14.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples] has finished in [503] ms
+28-Feb-2018 03:53:14.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager]
+28-Feb-2018 03:53:14.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager] has finished in [50] ms
+28-Feb-2018 03:53:14.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager]
+28-Feb-2018 03:53:14.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager] has finished in [51] ms
+28-Feb-2018 03:53:14.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT]
+28-Feb-2018 03:53:15.028 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT] has finished in [33] ms
+28-Feb-2018 03:53:15.045 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 03:53:15.062 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 03:53:15.062 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1770 ms
+28-Feb-2018 03:57:25.383 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 03:57:25.499 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 03:57:25.813 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 03:57:25.813 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [314] ms
+28-Feb-2018 03:57:36.327 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+28-Feb-2018 04:08:47.129 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 04:08:47.312 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 04:08:47.728 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [416] ms
+28-Feb-2018 04:12:38.091 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 04:12:38.175 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 04:12:38.489 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [314] ms
+28-Feb-2018 04:13:59.062 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 04:13:59.101 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 04:13:59.366 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [265] ms
+28-Feb-2018 04:14:29.445 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 04:14:29.478 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 04:14:29.895 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [417] ms
+28-Feb-2018 04:22:20.387 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 04:22:20.428 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 04:22:20.726 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [298] ms
+28-Feb-2018 04:26:01.474 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 04:26:11.532 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 04:26:11.811 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [279] ms
+28-Feb-2018 16:31:39.067 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 16:31:49.138 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 16:31:49.455 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [317] ms
+28-Feb-2018 16:37:49.900 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 16:37:50.018 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 16:37:50.269 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [251] ms
+28-Feb-2018 16:38:00.784 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 16:38:00.819 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 16:38:01.084 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [265] ms
+28-Feb-2018 16:57:24.398 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 16:57:24.635 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 16:57:24.873 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Feb-2018 16:57:24.888 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 16:57:24.905 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 16:57:24.908 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 16:57:24.909 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\conf\logging.properties
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\temp
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Feb-2018 16:58:04.204 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Feb-2018 16:58:04.821 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+28-Feb-2018 16:58:04.937 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 16:58:05.169 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 16:58:05.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 16:58:05.184 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 16:58:05.184 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1333 ms
+28-Feb-2018 16:58:05.222 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2018 16:58:05.222 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+28-Feb-2018 16:58:05.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 16:58:05.814 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 16:58:05.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [607] ms
+28-Feb-2018 16:58:05.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs]
+28-Feb-2018 16:58:06.008 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 16:58:06.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs] has finished in [131] ms
+28-Feb-2018 16:58:06.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples]
+28-Feb-2018 16:58:06.408 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 16:58:06.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples] has finished in [467] ms
+28-Feb-2018 16:58:06.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager]
+28-Feb-2018 16:58:06.579 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 16:58:06.596 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager] has finished in [106] ms
+28-Feb-2018 16:58:06.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager]
+28-Feb-2018 16:58:06.697 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 16:58:06.697 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager] has finished in [100] ms
+28-Feb-2018 16:58:06.697 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT]
+28-Feb-2018 16:58:06.794 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 16:58:06.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT] has finished in [100] ms
+28-Feb-2018 16:58:06.797 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 16:58:06.797 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 16:58:06.813 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1622 ms
+28-Feb-2018 17:01:07.100 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 17:01:07.118 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:01:07.535 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [417] ms
+28-Feb-2018 17:04:17.731 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 17:04:17.773 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:04:18.184 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [411] ms
+28-Feb-2018 17:13:48.814 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+28-Feb-2018 17:13:48.860 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+28-Feb-2018 17:13:48.883 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+28-Feb-2018 17:13:48.914 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 17:13:48.929 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+28-Feb-2018 17:13:48.945 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+28-Feb-2018 17:13:48.963 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:13:49.084 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [121] ms
+28-Feb-2018 17:13:49.084 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs]
+28-Feb-2018 17:13:49.135 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs] has finished in [51] ms
+28-Feb-2018 17:13:49.135 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples]
+28-Feb-2018 17:13:49.423 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples] has finished in [288] ms
+28-Feb-2018 17:13:49.424 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager]
+28-Feb-2018 17:13:49.509 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager] has finished in [85] ms
+28-Feb-2018 17:13:49.510 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager]
+28-Feb-2018 17:13:49.585 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager] has finished in [75] ms
+28-Feb-2018 17:13:49.585 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT]
+28-Feb-2018 17:13:49.651 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT] has finished in [66] ms
+28-Feb-2018 17:15:04.102 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 17:15:04.283 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 17:15:04.468 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Feb-2018 17:15:04.521 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 17:15:04.521 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 17:15:04.537 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 17:15:04.537 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 17:15:21.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+28-Feb-2018 17:15:21.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 17:15:21.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 17:15:21.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\conf\logging.properties
+28-Feb-2018 17:15:21.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2018 17:15:21.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2018 17:15:21.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2018 17:15:21.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2018 17:15:21.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 17:15:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28
+28-Feb-2018 17:15:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\temp
+28-Feb-2018 17:15:21.223 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+28-Feb-2018 17:15:21.223 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Feb-2018 17:15:21.224 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Feb-2018 17:15:21.862 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+28-Feb-2018 17:15:21.982 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 17:15:22.197 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 17:15:22.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 17:15:22.213 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 17:15:22.213 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1369 ms
+28-Feb-2018 17:15:22.254 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2018 17:15:22.254 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+28-Feb-2018 17:15:22.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:15:22.848 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 17:15:22.932 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [645] ms
+28-Feb-2018 17:15:22.935 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs]
+28-Feb-2018 17:15:23.037 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 17:15:23.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\docs] has finished in [107] ms
+28-Feb-2018 17:15:23.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples]
+28-Feb-2018 17:15:23.494 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 17:15:23.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\examples] has finished in [543] ms
+28-Feb-2018 17:15:23.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager]
+28-Feb-2018 17:15:23.724 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 17:15:23.729 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\host-manager] has finished in [144] ms
+28-Feb-2018 17:15:23.729 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager]
+28-Feb-2018 17:15:23.859 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 17:15:23.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\manager] has finished in [134] ms
+28-Feb-2018 17:15:23.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT]
+28-Feb-2018 17:15:23.971 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 17:15:23.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\ROOT] has finished in [112] ms
+28-Feb-2018 17:15:23.982 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 17:15:23.997 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 17:15:24.001 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1780 ms
+28-Feb-2018 17:17:24.633 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 17:17:34.696 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:17:35.049 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [353] ms
+28-Feb-2018 17:47:06.942 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 17:47:06.959 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:47:07.283 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [324] ms
+28-Feb-2018 17:53:08.210 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 17:53:18.235 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 17:53:18.544 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [309] ms
+28-Feb-2018 18:13:50.107 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:13:50.142 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 18:13:50.562 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [420] ms
+28-Feb-2018 18:17:31.297 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:17:41.336 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 18:17:41.673 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [337] ms
+28-Feb-2018 18:22:42.488 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:22:52.531 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 18:22:52.868 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [337] ms
+28-Feb-2018 18:26:13.613 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:26:23.659 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 18:26:24.028 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [369] ms
+28-Feb-2018 18:31:14.845 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:31:24.864 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 18:31:25.177 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [313] ms
+28-Feb-2018 18:46:16.701 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:46:46.770 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war]
+28-Feb-2018 18:46:47.106 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\text-client-1.6.12.war] has finished in [336] ms
+28-Feb-2018 18:48:37.818 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/text-client-1.6.12]
+28-Feb-2018 18:48:47.868 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 18:48:48.486 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [618] ms
+28-Feb-2018 18:56:28.953 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 18:56:29.034 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 18:56:29.359 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [325] ms
+28-Feb-2018 18:56:39.868 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 18:56:39.891 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 18:56:40.151 INFO [localhost-startStop-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [260] ms
+28-Feb-2018 18:58:30.301 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 18:58:30.384 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 18:58:30.735 INFO [localhost-startStop-14] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [351] ms
+28-Feb-2018 18:58:41.267 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 18:58:41.302 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 18:58:41.577 INFO [localhost-startStop-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [275] ms
+28-Feb-2018 19:00:51.807 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:00:51.841 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:00:52.116 INFO [localhost-startStop-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [275] ms
+28-Feb-2018 19:01:52.202 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:01:52.251 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:01:52.650 INFO [localhost-startStop-17] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [399] ms
+28-Feb-2018 19:05:42.952 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:05:43.068 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:05:43.368 INFO [localhost-startStop-18] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [300] ms
+28-Feb-2018 19:05:53.871 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:05:53.887 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:05:54.188 INFO [localhost-startStop-19] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [300] ms
+28-Feb-2018 19:07:04.318 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:07:04.421 INFO [localhost-startStop-20] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:07:04.735 INFO [localhost-startStop-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [314] ms
+28-Feb-2018 19:07:15.251 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:07:15.279 INFO [localhost-startStop-21] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:07:15.553 INFO [localhost-startStop-21] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [274] ms
+28-Feb-2018 19:10:45.801 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:10:45.940 INFO [localhost-startStop-22] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:10:46.234 INFO [localhost-startStop-22] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [294] ms
+28-Feb-2018 19:10:56.763 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:10:56.778 INFO [localhost-startStop-23] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:10:57.094 INFO [localhost-startStop-23] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [316] ms
+28-Feb-2018 19:15:58.413 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:15:58.429 INFO [localhost-startStop-24] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:15:58.742 INFO [localhost-startStop-24] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [314] ms
+28-Feb-2018 19:17:28.844 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:17:28.971 INFO [localhost-startStop-25] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:17:29.242 INFO [localhost-startStop-25] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [271] ms
+28-Feb-2018 19:17:39.752 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:17:39.768 INFO [localhost-startStop-26] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:17:40.064 INFO [localhost-startStop-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [296] ms
+28-Feb-2018 19:19:20.750 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:19:30.772 INFO [localhost-startStop-27] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:19:31.258 INFO [localhost-startStop-27] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [486] ms
+28-Feb-2018 19:37:12.841 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:37:12.871 INFO [localhost-startStop-28] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:37:13.262 INFO [localhost-startStop-28] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [390] ms
+28-Feb-2018 19:41:23.574 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:41:23.620 INFO [localhost-startStop-29] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:41:23.890 INFO [localhost-startStop-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [270] ms
+28-Feb-2018 19:45:24.185 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:45:24.285 INFO [localhost-startStop-30] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:45:24.618 INFO [localhost-startStop-30] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [333] ms
+28-Feb-2018 19:45:35.150 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:45:35.188 INFO [localhost-startStop-31] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:45:35.623 INFO [localhost-startStop-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [435] ms
+28-Feb-2018 19:46:45.722 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:46:45.753 INFO [localhost-startStop-32] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:46:46.084 INFO [localhost-startStop-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [331] ms
+28-Feb-2018 19:49:16.290 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:49:16.385 INFO [localhost-startStop-33] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:49:16.701 INFO [localhost-startStop-33] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [316] ms
+28-Feb-2018 19:49:27.217 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:49:27.249 INFO [localhost-startStop-34] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:49:27.531 INFO [localhost-startStop-34] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [282] ms
+28-Feb-2018 19:58:48.085 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:58:48.285 INFO [localhost-startStop-35] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:58:48.584 INFO [localhost-startStop-35] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [299] ms
+28-Feb-2018 19:58:59.091 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 19:58:59.105 INFO [localhost-startStop-36] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 19:58:59.567 INFO [localhost-startStop-36] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [462] ms
+28-Feb-2018 20:07:50.212 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:07:50.230 INFO [localhost-startStop-37] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:07:50.670 INFO [localhost-startStop-37] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [440] ms
+28-Feb-2018 20:09:10.769 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:09:10.784 INFO [localhost-startStop-38] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:09:11.101 INFO [localhost-startStop-38] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [317] ms
+28-Feb-2018 20:15:51.576 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:15:51.601 INFO [localhost-startStop-39] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:15:52.015 INFO [localhost-startStop-39] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [413] ms
+28-Feb-2018 20:24:02.539 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:24:02.575 INFO [localhost-startStop-40] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:24:02.962 INFO [localhost-startStop-40] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [387] ms
+28-Feb-2018 20:34:44.253 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:34:44.269 INFO [localhost-startStop-41] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:34:44.618 INFO [localhost-startStop-41] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [349] ms
+28-Feb-2018 20:34:54.649 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:34:54.681 INFO [localhost-startStop-42] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:34:54.950 INFO [localhost-startStop-42] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [269] ms
+28-Feb-2018 20:37:35.685 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:37:45.720 INFO [localhost-startStop-43] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:37:46.053 INFO [localhost-startStop-43] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [333] ms
+28-Feb-2018 20:40:26.219 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:40:26.266 INFO [localhost-startStop-44] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:40:26.583 INFO [localhost-startStop-44] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [317] ms
+28-Feb-2018 20:50:27.642 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:50:37.668 INFO [localhost-startStop-45] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:50:37.990 INFO [localhost-startStop-45] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [321] ms
+28-Feb-2018 20:52:08.590 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:52:18.620 INFO [localhost-startStop-46] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:52:18.974 INFO [localhost-startStop-46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [354] ms
+28-Feb-2018 20:53:49.608 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:53:49.748 INFO [localhost-startStop-47] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:53:50.551 INFO [localhost-startStop-47] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [803] ms
+28-Feb-2018 20:54:01.117 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:54:11.122 INFO [localhost-startStop-48] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:54:11.573 INFO [localhost-startStop-48] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [451] ms
+28-Feb-2018 20:55:52.175 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:56:02.198 INFO [localhost-startStop-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:56:02.576 INFO [localhost-startStop-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [378] ms
+28-Feb-2018 20:58:32.763 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 20:58:32.801 INFO [localhost-startStop-50] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 20:58:33.105 INFO [localhost-startStop-50] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [304] ms
+28-Feb-2018 21:14:04.457 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 21:14:14.504 INFO [localhost-startStop-51] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 21:14:14.955 INFO [localhost-startStop-51] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [451] ms
+28-Feb-2018 21:15:15.491 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 21:15:25.513 INFO [localhost-startStop-52] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 21:15:25.799 INFO [localhost-startStop-52] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [286] ms
+28-Feb-2018 21:57:39.338 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 21:57:49.363 INFO [localhost-startStop-53] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 21:57:49.863 INFO [localhost-startStop-53] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [500] ms
+28-Feb-2018 22:17:01.159 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+28-Feb-2018 22:17:51.243 INFO [localhost-startStop-54] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+28-Feb-2018 22:17:52.167 INFO [localhost-startStop-54] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ojwoo\Downloads\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [923] ms
+28-Feb-2018 23:01:14.956 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 23:01:15.149 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 23:01:15.335 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Feb-2018 23:01:15.408 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 23:01:15.412 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 23:01:15.415 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 23:01:15.416 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

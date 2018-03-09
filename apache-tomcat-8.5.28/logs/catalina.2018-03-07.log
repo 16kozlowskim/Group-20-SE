@@ -1,0 +1,949 @@
+07-Mar-2018 01:22:59.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-8.5.28\conf\logging.properties
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-8.5.28\temp
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Mar-2018 01:22:59.203 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2018 01:22:59.782 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-Mar-2018 01:22:59.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:23:00.125 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:23:00.125 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:23:00.141 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:23:00.141 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1540 ms
+07-Mar-2018 01:23:00.172 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 01:23:00.172 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+07-Mar-2018 01:23:00.203 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:23:00.705 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:23:00.783 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [580] ms
+07-Mar-2018 01:23:00.783 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\docs]
+07-Mar-2018 01:23:00.877 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:23:00.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\docs] has finished in [109] ms
+07-Mar-2018 01:23:00.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager]
+07-Mar-2018 01:23:00.986 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:23:00.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager] has finished in [94] ms
+07-Mar-2018 01:23:00.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\manager]
+07-Mar-2018 01:23:01.080 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:23:01.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\manager] has finished in [94] ms
+07-Mar-2018 01:23:01.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT]
+07-Mar-2018 01:23:01.142 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:23:01.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT] has finished in [62] ms
+07-Mar-2018 01:23:01.158 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:23:01.158 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:23:01.174 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1031 ms
+07-Mar-2018 01:23:31.679 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 01:23:31.944 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes\ai\api\examples] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:23:31.944 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes\ai\api] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:23:31.944 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes\ai] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:23:31.944 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:23:31.960 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:23:32.085 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\extensions\fancybox] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:25:02.169 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:25:03.876 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [1,707] ms
+07-Mar-2018 01:26:49.788 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:26:50.051 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:26:50.290 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2018 01:26:52.493 WARNING [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:77)
+ ai.api.examples.VTA.aiNews(VTA.java:509)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 01:26:52.509 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:26:57.531 WARNING [Thread-5] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+07-Mar-2018 01:26:57.531 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:26:57.535 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:26:57.537 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:38:53.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-8.5.28\conf\logging.properties
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-8.5.28\temp
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Mar-2018 01:38:53.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2018 01:38:54.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-Mar-2018 01:38:54.189 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:38:54.421 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:38:54.438 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:38:54.440 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:38:54.441 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1294 ms
+07-Mar-2018 01:38:54.475 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 01:38:54.475 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+07-Mar-2018 01:38:54.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:38:54.544 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant] was found with a last modified time that did not match the associated WAR. It will be deleted.
+07-Mar-2018 01:38:54.559 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\css] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.591 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\fonts\roboto] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.591 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\fonts] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.606 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\aspnetspell.dll] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.622 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\core\asp] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.622 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\core\php] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.643 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\core\settings] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.658 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\core\test-assets] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.659 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\core] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.672 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\dictionaries\language-rules] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.674 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\dictionaries] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.709 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\extensions\fancybox] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.709 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\extensions\modalbox\lib] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.725 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\extensions\modalbox] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.725 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\extensions] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.725 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\themes\bright] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.740 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\themes\buttons] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.740 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\themes\classic] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.756 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\themes\clean] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.772 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\themes\modern] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.772 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\themes] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.826 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\translations] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.826 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.841 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\js] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.841 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\META-INF\maven\ai.api.libai.samples\text-client] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.841 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\META-INF\maven\ai.api.libai.samples] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.841 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\META-INF\maven] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.857 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\META-INF] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.857 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes\ai\api\examples] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.857 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes\ai\api] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.857 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes\ai] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.873 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\classes] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.873 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF\lib] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.873 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\WEB-INF] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.894 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\css] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.911 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\fonts\roboto] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.911 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\fonts] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.926 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\aspnetspell.dll] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.926 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\core\asp] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.942 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\core\php] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.957 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\core\settings] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.973 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\core\test-assets] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.973 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\core] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.994 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\dictionaries\language-rules] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:54.995 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\dictionaries] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.026 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\extensions\fancybox] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.042 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\extensions\modalbox\lib] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.042 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\extensions\modalbox] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.042 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\extensions] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.058 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\themes\bright] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.058 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\themes\buttons] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.058 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\themes\classic] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.073 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\themes\clean] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.094 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\themes\modern] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.095 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\themes] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.142 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck\translations] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.142 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\JavaScriptSpellCheck] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.142 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\js] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.157 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp\META-INF] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.157 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\webapp] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.157 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.157 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.delete [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:38:55.157 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/VirtualTradingAssistant]
+ java.io.IOException: [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant] could not be completely deleted. The presence of the remaining files may cause problems
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:109)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:614)
+	at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:747)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:149)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:986)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1857)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+07-Mar-2018 01:38:55.747 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:38:55.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [1,272] ms
+07-Mar-2018 01:38:55.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\docs]
+07-Mar-2018 01:38:55.894 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:38:55.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\docs] has finished in [101] ms
+07-Mar-2018 01:38:55.894 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager]
+07-Mar-2018 01:38:55.994 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:38:55.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager] has finished in [100] ms
+07-Mar-2018 01:38:55.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\manager]
+07-Mar-2018 01:38:56.094 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:38:56.094 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\manager] has finished in [100] ms
+07-Mar-2018 01:38:56.094 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT]
+07-Mar-2018 01:38:56.179 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:38:56.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT] has finished in [85] ms
+07-Mar-2018 01:38:56.179 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:38:56.194 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:38:56.194 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1764 ms
+07-Mar-2018 01:40:17.022 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:40:17.138 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:40:17.291 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2018 01:40:17.307 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:40:17.307 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:40:17.322 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:40:17.322 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:43:52.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+07-Mar-2018 01:43:52.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+07-Mar-2018 01:43:52.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+07-Mar-2018 01:43:52.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 01:43:52.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 01:43:52.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 01:43:52.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+07-Mar-2018 01:43:52.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+07-Mar-2018 01:43:52.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 01:43:52.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:43:52.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:43:52.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-8.5.28\conf\logging.properties
+07-Mar-2018 01:43:52.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 01:43:52.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 01:43:52.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 01:43:52.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2018 01:43:52.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:43:52.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:43:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-8.5.28\temp
+07-Mar-2018 01:43:52.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-Mar-2018 01:43:52.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Mar-2018 01:43:52.768 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2018 01:43:53.597 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-Mar-2018 01:43:53.810 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:43:54.118 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:43:54.133 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:43:54.140 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:43:54.142 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1912 ms
+07-Mar-2018 01:43:54.202 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 01:43:54.203 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+07-Mar-2018 01:43:54.259 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:43:56.153 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:43:56.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,029] ms
+07-Mar-2018 01:43:56.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\docs]
+07-Mar-2018 01:43:56.437 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:43:56.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\docs] has finished in [150] ms
+07-Mar-2018 01:43:56.447 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager]
+07-Mar-2018 01:43:56.595 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:43:56.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager] has finished in [167] ms
+07-Mar-2018 01:43:56.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\manager]
+07-Mar-2018 01:43:56.771 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:43:56.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\manager] has finished in [158] ms
+07-Mar-2018 01:43:56.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT]
+07-Mar-2018 01:43:56.880 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 01:43:56.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT] has finished in [108] ms
+07-Mar-2018 01:43:56.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:43:56.908 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:43:56.916 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2773 ms
+07-Mar-2018 01:48:17.632 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 01:48:17.636 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.alertServlet]
+07-Mar-2018 01:48:18.532 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\css] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:48:18.704 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\extensions] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 01:48:18.813 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:48:20.988 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,175] ms
+07-Mar-2018 01:53:41.901 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 01:53:41.923 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:53:44.026 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,103] ms
+07-Mar-2018 01:53:54.049 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 01:53:57.250 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:77)
+ ai.api.examples.VTA.aiNews(VTA.java:509)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 01:53:58.566 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:53:59.253 INFO [http-nio-8080-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.io.File]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.io.File]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at ai.api.examples.DataBridge.getNews(DataBridge.java:81)
+	at ai.api.examples.VTA.aiNews(VTA.java:509)
+	at ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+07-Mar-2018 01:54:00.925 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,359] ms
+07-Mar-2018 01:55:21.491 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 01:55:23.658 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:91)
+ ai.api.examples.VTA.aiNews(VTA.java:512)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 01:55:23.674 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 01:55:26.640 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,966] ms
+07-Mar-2018 01:57:52.438 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:57:52.729 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:57:53.278 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2018 01:57:56.042 WARNING [localhost-startStop-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:91)
+ ai.api.examples.VTA.aiNews(VTA.java:515)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 01:57:56.056 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:58:01.063 WARNING [Thread-5] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+07-Mar-2018 01:58:01.066 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:58:01.069 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:58:01.071 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:59:57.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+07-Mar-2018 01:59:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+07-Mar-2018 01:59:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:59:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-8.5.28
+07-Mar-2018 01:59:57.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-8.5.28\conf\logging.properties
+07-Mar-2018 01:59:57.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 01:59:57.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 01:59:57.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 01:59:57.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2018 01:59:57.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:59:57.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-8.5.28
+07-Mar-2018 01:59:57.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-8.5.28\temp
+07-Mar-2018 01:59:57.050 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-Mar-2018 01:59:57.051 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Mar-2018 01:59:57.051 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2018 01:59:57.670 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-Mar-2018 01:59:57.788 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 01:59:58.026 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:59:58.038 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 01:59:58.043 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 01:59:58.044 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1350 ms
+07-Mar-2018 01:59:58.083 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 01:59:58.087 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+07-Mar-2018 01:59:58.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 02:00:00.441 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:00:00.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,384] ms
+07-Mar-2018 02:00:00.512 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\docs]
+07-Mar-2018 02:00:00.594 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:00:00.599 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\docs] has finished in [87] ms
+07-Mar-2018 02:00:00.600 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager]
+07-Mar-2018 02:00:00.682 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:00:00.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager] has finished in [94] ms
+07-Mar-2018 02:00:00.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\manager]
+07-Mar-2018 02:00:00.759 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:00:00.763 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\manager] has finished in [69] ms
+07-Mar-2018 02:00:00.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT]
+07-Mar-2018 02:00:00.835 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:00:00.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT] has finished in [71] ms
+07-Mar-2018 02:00:00.844 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:00:00.855 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:00:00.861 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2815 ms
+07-Mar-2018 02:01:23.898 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:01:24.005 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:01:24.169 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2018 02:01:24.204 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:01:24.207 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:01:24.210 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:01:24.211 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:04:25.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+07-Mar-2018 02:04:25.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+07-Mar-2018 02:04:25.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 02:04:25.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-8.5.28
+07-Mar-2018 02:04:25.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-8.5.28
+07-Mar-2018 02:04:25.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-8.5.28\conf\logging.properties
+07-Mar-2018 02:04:25.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 02:04:25.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 02:04:25.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 02:04:25.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2018 02:04:25.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-8.5.28
+07-Mar-2018 02:04:25.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-8.5.28
+07-Mar-2018 02:04:25.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-8.5.28\temp
+07-Mar-2018 02:04:25.151 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-Mar-2018 02:04:25.151 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Mar-2018 02:04:25.152 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2018 02:04:25.963 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-Mar-2018 02:04:26.154 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:04:26.455 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 02:04:26.467 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:04:26.478 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 02:04:26.483 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1789 ms
+07-Mar-2018 02:04:26.545 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 02:04:26.546 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+07-Mar-2018 02:04:26.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 02:04:27.396 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:04:27.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [898] ms
+07-Mar-2018 02:04:27.487 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\docs]
+07-Mar-2018 02:04:27.614 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:04:27.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\docs] has finished in [130] ms
+07-Mar-2018 02:04:27.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager]
+07-Mar-2018 02:04:27.726 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:04:27.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager] has finished in [119] ms
+07-Mar-2018 02:04:27.738 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\manager]
+07-Mar-2018 02:04:27.836 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:04:27.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\manager] has finished in [107] ms
+07-Mar-2018 02:04:27.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT]
+07-Mar-2018 02:04:27.915 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 02:04:27.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT] has finished in [75] ms
+07-Mar-2018 02:04:27.924 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:04:27.933 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:04:27.937 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1451 ms
+07-Mar-2018 02:27:00.573 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:27:00.796 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:27:00.950 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2018 02:27:00.969 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.newsServlet]
+07-Mar-2018 02:27:01.972 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.newsServlet]
+07-Mar-2018 02:27:02.992 INFO [localhost-startStop-2] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.newsServlet]
+07-Mar-2018 02:27:03.103 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:515)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 02:27:03.116 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:27:03.117 INFO [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.io.PrintStream]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.io.PrintStream]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at ai.api.examples.DataBridge.getNews(DataBridge.java:92)
+	at ai.api.examples.VTA.aiNews(VTA.java:515)
+	at ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+07-Mar-2018 02:27:03.119 SEVERE [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.service Error processing request
+ java.lang.NullPointerException
+	at org.apache.catalina.connector.Request.notifyAttributeAssigned(Request.java:1555)
+	at org.apache.catalina.connector.Request.setAttribute(Request.java:1541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:154)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+07-Mar-2018 02:27:03.122 SEVERE [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.endRequest Error finishing response
+ java.lang.NullPointerException
+	at org.apache.coyote.http11.Http11OutputBuffer.commit(Http11OutputBuffer.java:347)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1354)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:260)
+	at org.apache.coyote.http11.Http11Processor.endRequest(Http11Processor.java:1523)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:843)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+07-Mar-2018 02:27:03.129 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 02:27:03.131 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 02:27:03.132 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 13:19:31.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+07-Mar-2018 13:19:31.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+07-Mar-2018 13:19:31.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+07-Mar-2018 13:19:31.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-Mar-2018 13:19:31.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2018 13:19:31.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2018 13:19:31.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_161
+07-Mar-2018 13:19:31.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+07-Mar-2018 13:19:31.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2018 13:19:31.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-8.5.28
+07-Mar-2018 13:19:31.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-8.5.28
+07-Mar-2018 13:19:31.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-8.5.28\conf\logging.properties
+07-Mar-2018 13:19:31.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2018 13:19:31.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2018 13:19:31.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2018 13:19:31.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2018 13:19:31.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-8.5.28
+07-Mar-2018 13:19:31.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-8.5.28
+07-Mar-2018 13:19:31.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-8.5.28\temp
+07-Mar-2018 13:19:31.015 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-Mar-2018 13:19:31.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-Mar-2018 13:19:31.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2018 13:19:31.852 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-Mar-2018 13:19:31.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 13:19:32.309 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 13:19:32.325 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 13:19:32.327 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Mar-2018 13:19:32.328 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1725 ms
+07-Mar-2018 13:19:32.409 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2018 13:19:32.416 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+07-Mar-2018 13:19:32.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 13:19:33.065 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 13:19:33.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [673] ms
+07-Mar-2018 13:19:33.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\docs]
+07-Mar-2018 13:19:33.262 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 13:19:33.269 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\docs] has finished in [117] ms
+07-Mar-2018 13:19:33.270 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager]
+07-Mar-2018 13:19:33.397 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 13:19:33.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\host-manager] has finished in [139] ms
+07-Mar-2018 13:19:33.411 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\manager]
+07-Mar-2018 13:19:33.522 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 13:19:33.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\manager] has finished in [117] ms
+07-Mar-2018 13:19:33.528 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT]
+07-Mar-2018 13:19:33.631 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2018 13:19:33.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-8.5.28\webapps\ROOT] has finished in [114] ms
+07-Mar-2018 13:19:33.646 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 13:19:33.662 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 13:19:33.668 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1337 ms
+07-Mar-2018 13:58:05.603 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 13:58:05.615 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.newsServlet]
+07-Mar-2018 13:58:06.684 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.newsServlet]
+07-Mar-2018 13:58:07.790 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [ai.api.examples.newsServlet]
+07-Mar-2018 13:58:07.903 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:512)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 13:58:17.919 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 13:58:20.691 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [2,772] ms
+07-Mar-2018 14:39:32.185 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 14:39:34.451 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:512)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 14:39:54.490 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 14:39:57.722 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [3,232] ms
+07-Mar-2018 14:44:08.594 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 14:44:10.756 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:515)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 14:44:20.777 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 14:44:23.810 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [3,032] ms
+07-Mar-2018 15:06:35.198 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 15:06:35.505 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck\translations] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 15:06:35.505 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ExpandWar.deleteDir [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant\JavaScriptSpellCheck] could not be completely deleted. The presence of the remaining files may cause problems
+07-Mar-2018 15:07:35.641 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 15:07:38.720 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [3,079] ms
+07-Mar-2018 15:11:10.238 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 15:11:13.867 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:506)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 15:11:44.131 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 15:11:47.196 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [3,065] ms
+07-Mar-2018 15:13:57.767 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 15:13:59.954 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:509)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 15:14:10.090 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 15:14:14.088 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [3,998] ms
+07-Mar-2018 15:19:34.411 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 15:20:19.026 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:506)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 15:20:19.037 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 15:20:20.845 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [1,808] ms
+07-Mar-2018 15:23:31.462 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VirtualTradingAssistant]
+07-Mar-2018 15:23:36.680 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getNews(DataBridge.java:90)
+ ai.api.examples.VTA.aiNews(VTA.java:509)
+ ai.api.examples.newsServlet.doGet(newsServlet.java:47)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 15:23:36.682 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VirtualTradingAssistant] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+ java.lang.ProcessImpl.waitFor(Unknown Source)
+ ai.api.examples.DataBridge.getCompanyData(DataBridge.java:137)
+ ai.api.examples.VTA.aiData(VTA.java:589)
+ ai.api.examples.alertServlet.doGet(alertServlet.java:46)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Unknown Source)]
+07-Mar-2018 15:23:46.713 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war]
+07-Mar-2018 15:23:50.016 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\apache-tomcat-8.5.28\webapps\VirtualTradingAssistant.war] has finished in [3,303] ms
+07-Mar-2018 21:49:08.079 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 21:49:08.294 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 21:49:08.510 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2018 21:49:08.556 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 21:49:08.574 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2018 21:49:08.577 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2018 21:49:08.578 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
